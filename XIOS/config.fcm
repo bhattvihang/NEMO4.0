@@ -1,0 +1,6 @@
+%COMPIL_CFLAGS %PROD_CFLAGS
+%COMPIL_FFLAGS %PROD_FFLAGS
+%CPP_KEY        USING_NETCDF_PAR
+%CBASE_INC     -I/usr/local/netcdf4p_gcc9/include   -I/Users/vihangbhatt/NEMO/XIOS/extern/boost -I/Users/vihangbhatt/NEMO/XIOS/extern/blitz
+%FBASE_INC     -I/usr/local/netcdf4p_gcc9/include   -I/Users/vihangbhatt/NEMO/XIOS/extern/boost -I/Users/vihangbhatt/NEMO/XIOS/extern/blitz
+%ARCH_LD        -L/usr/local/netcdf4p_gcc9/lib   -lnetcdff -lnetcdf  
